@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algerian University Grade Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-calculator"></i> Algerian University Grade Calculator</h1>
+        <div id="alerts"></div>
+        <form id="moduleForm" class="module-form">
+            <div class="input-group">
+                <input type="text" id="moduleName" placeholder="Module Name" required>
+                <div class="error-message" id="nameError">Module name is required.</div>
+            </div>
+            <div class="input-group">
+                <input type="number" id="td" placeholder="TD Mark (0-20, optional)" step="0.01" min="0" max="20">
+                <div class="error-message" id="tdError">TD must be between 0 and 20.</div>
+            </div>
+            <div class="input-group">
+                <input type="number" id="tp" placeholder="TP Mark (0-20, optional)" step="0.01" min="0" max="20">
+                <div class="error-message" id="tpError">TP must be between 0 and 20.</div>
+            </div>
+            <div class="input-group">
+                <input type="number" id="exam" placeholder="Exam Mark (0-20)" required step="0.01" min="0" max="20">
+                <div class="error-message" id="examError">Exam must be between 0 and 20.</div>
+            </div>
+            <div class="input-group">
+                <input type="number" id="coefficient" placeholder="Coefficient (>0)" required step="0.01" min="0.01">
+                <div class="error-message" id="coeffError">Coefficient must be greater than 0.</div>
+            </div>
+            <button type="submit"><i class="fas fa-plus"></i> Add Module</button>
+        </form>
+        <div class="module-list" id="moduleList"></div>
+        <button id="calculateBtn" style="display:none; margin:20px auto; background:#e67e22; color:white; padding:10px 20px; border:none; border-radius:8px; cursor:pointer; transition:all 0.3s;" onclick="calculateSemester()"><i class="fas fa-cogs"></i> Calculate Semester Grade</button>
+        <div class="results" id="results" style="display:none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
