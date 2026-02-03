@@ -19,10 +19,7 @@ Installation
 Download: Clone or download this repository from GitHub.
 bash
 
-Copy code
-git clone https://github.com/yourusername/algerian-grade-calculator.git
-Run Locally: Open index.html directly in your browser—no server needed.
-Deploy Online (Optional): Host for free on platforms like GitHub Pages, Netlify, or Vercel for public access.
+
 📖 Usage
 Add a Module 📝: Enter the module name, optional TD/TP marks (0-20), required exam mark (0-20), and coefficient (>0). Validation highlights errors in real-time.
 Manage Your List 🗂️: Review added modules; remove any with the delete button.
@@ -33,26 +30,19 @@ Input: Module="Math", TD=15, TP=14, Exam=16, Coefficient=2
 Output: P Mark=14.33, Module Grade=15.53
 Semester: Aggregates all modules for a final weighted grade.
 🛠️ Technologies Used
-HTML5 🌐: Semantic structure and layout.
-CSS3 🎨: Custom styling, animations, and responsive design.
-JavaScript (ES6) ⚙️: Core logic, validation, localStorage, and DOM interactions.
+HTML 🌐: Semantic structure and layout.
+CSS 🎨: Custom styling, animations, and responsive design.
+JavaScript  ⚙️: Core logic, validation, localStorage, and DOM interactions.
 Font Awesome 🔤: Icon library for enhanced UI elements.
-🤝 Contributing
-We welcome contributions! Here's how to get involved:
 
-Fork the repository.
-Create a feature branch (git checkout -b feature/amazing-feature).
-Commit your changes (git commit -m 'Add amazing feature').
-Push to the branch (git push origin feature/amazing-feature).
-Open a Pull Request.
-Ideas for improvements: Add charts 📈, dark mode 🌙, or multi-language support 🌍.
 
 📄 License
-This project is licensed under the MIT License—see the LICENSE file for details. Feel free to use, modify, and distribute for educational or personal purposes.
+This project is open-source. Feel free to use, modify, and distribute for educational or personal purposes.
 
 📞 Contact
 Author: moha-mohammed
 Email: mohammedbenaissa100@gmail.com
 GitHub: https://github.com/moha-mohammed/algerian-grade-calculator
 Issues: Report bugs or request features via GitHub Issues.
+
 Thank you for using the Algerian University Grade Calculator! 🎉
